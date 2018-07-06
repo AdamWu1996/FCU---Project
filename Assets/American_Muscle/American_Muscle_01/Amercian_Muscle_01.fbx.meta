@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: bb6b322b73a5a4dc19ddbc50031beb58
+timeCreated: 1506432661
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: American_Muscle_01_W
+    100004: American_Muscle_01_W 1
+    100006: American_Muscle_01_W 2
+    100008: American_Muscle_01_W 3
+    100010: American_Muscle_01_W 4
+    100012: American_Muscle_01_Wheel
+    100014: 'American_Muscle_01_Wheel '
+    100016: American_Muscle_01_Wheel  1
+    100018: American_Muscle_01_Wheel  2
+    100020: Body
+    100022: Body_HR
+    100024: Body_LR
+    100026: Body_MR
+    100028: Bump_F_HR
+    100030: Bump_F_LR
+    100032: Bump_F_MR
+    100034: Bump_R_HR
+    100036: Bump_R_LR
+    100038: Bump_R_MR
+    100040: Cock_HR
+    100042: Cock_LR
+    100044: Cockpit
+    100046: D_CAR_MR
+    100048: Door_L
+    100050: Door_L_Window
+    100052: Door_R
+    100054: Door_R_Window
+    100056: Exterior_Door_L
+    100058: Exterior_Door_R
+    100060: F_Lgt_L_MR
+    100062: F_Lgt_R_MR
+    100064: Front_Glass
+    100066: Front_Light_Glass
+    100068: Int_L_LR
+    100070: Int_R_LR
+    100072: Interior_Door_L
+    100074: Interior_Door_R
+    100076: Left_Glass
+    100078: LGT_F_MR
+    100080: LGT_R_MR
+    100082: Moving_Lights
+    100084: Rear_Glass
+    100086: Rear_Light_Glass
+    100088: Right_Glass
+    100090: Seat_L_LR
+    100092: Seat_R_LR
+    100094: Steer_HR
+    100096: Steer_LR
+    100098: Texture Group
+    100100: Wheels
+    400000: //RootNode
+    400002: American_Muscle_01_W
+    400004: American_Muscle_01_W 1
+    400006: American_Muscle_01_W 2
+    400008: American_Muscle_01_W 3
+    400010: American_Muscle_01_W 4
+    400012: American_Muscle_01_Wheel
+    400014: 'American_Muscle_01_Wheel '
+    400016: American_Muscle_01_Wheel  1
+    400018: American_Muscle_01_Wheel  2
+    400020: Body
+    400022: Body_HR
+    400024: Body_LR
+    400026: Body_MR
+    400028: Bump_F_HR
+    400030: Bump_F_LR
+    400032: Bump_F_MR
+    400034: Bump_R_HR
+    400036: Bump_R_LR
+    400038: Bump_R_MR
+    400040: Cock_HR
+    400042: Cock_LR
+    400044: Cockpit
+    400046: D_CAR_MR
+    400048: Door_L
+    400050: Door_L_Window
+    400052: Door_R
+    400054: Door_R_Window
+    400056: Exterior_Door_L
+    400058: Exterior_Door_R
+    400060: F_Lgt_L_MR
+    400062: F_Lgt_R_MR
+    400064: Front_Glass
+    400066: Front_Light_Glass
+    400068: Int_L_LR
+    400070: Int_R_LR
+    400072: Interior_Door_L
+    400074: Interior_Door_R
+    400076: Left_Glass
+    400078: LGT_F_MR
+    400080: LGT_R_MR
+    400082: Moving_Lights
+    400084: Rear_Glass
+    400086: Rear_Light_Glass
+    400088: Right_Glass
+    400090: Seat_L_LR
+    400092: Seat_R_LR
+    400094: Steer_HR
+    400096: Steer_LR
+    400098: Texture Group
+    400100: Wheels
+    2300000: American_Muscle_01_W
+    2300002: American_Muscle_01_W 1
+    2300004: American_Muscle_01_W 2
+    2300006: American_Muscle_01_W 3
+    2300008: American_Muscle_01_W 4
+    2300010: American_Muscle_01_Wheel
+    2300012: 'American_Muscle_01_Wheel '
+    2300014: American_Muscle_01_Wheel  1
+    2300016: American_Muscle_01_Wheel  2
+    2300018: Body_HR
+    2300020: Body_LR
+    2300022: Body_MR
+    2300024: Bump_F_HR
+    2300026: Bump_F_LR
+    2300028: Bump_F_MR
+    2300030: Bump_R_HR
+    2300032: Bump_R_LR
+    2300034: Bump_R_MR
+    2300036: Cock_HR
+    2300038: Cock_LR
+    2300040: Door_L_Window
+    2300042: Door_R_Window
+    2300044: Exterior_Door_L
+    2300046: Exterior_Door_R
+    2300048: F_Lgt_L_MR
+    2300050: F_Lgt_R_MR
+    2300052: Front_Glass
+    2300054: Front_Light_Glass
+    2300056: Int_L_LR
+    2300058: Int_R_LR
+    2300060: Interior_Door_L
+    2300062: Interior_Door_R
+    2300064: Left_Glass
+    2300066: LGT_F_MR
+    2300068: LGT_R_MR
+    2300070: Moving_Lights
+    2300072: Rear_Glass
+    2300074: Rear_Light_Glass
+    2300076: Right_Glass
+    2300078: Seat_L_LR
+    2300080: Seat_R_LR
+    2300082: Steer_HR
+    2300084: Steer_LR
+    3300000: American_Muscle_01_W
+    3300002: American_Muscle_01_W 1
+    3300004: American_Muscle_01_W 2
+    3300006: American_Muscle_01_W 3
+    3300008: American_Muscle_01_W 4
+    3300010: American_Muscle_01_Wheel
+    3300012: 'American_Muscle_01_Wheel '
+    3300014: American_Muscle_01_Wheel  1
+    3300016: American_Muscle_01_Wheel  2
+    3300018: Body_HR
+    3300020: Body_LR
+    3300022: Body_MR
+    3300024: Bump_F_HR
+    3300026: Bump_F_LR
+    3300028: Bump_F_MR
+    3300030: Bump_R_HR
+    3300032: Bump_R_LR
+    3300034: Bump_R_MR
+    3300036: Cock_HR
+    3300038: Cock_LR
+    3300040: Door_L_Window
+    3300042: Door_R_Window
+    3300044: Exterior_Door_L
+    3300046: Exterior_Door_R
+    3300048: F_Lgt_L_MR
+    3300050: F_Lgt_R_MR
+    3300052: Front_Glass
+    3300054: Front_Light_Glass
+    3300056: Int_L_LR
+    3300058: Int_R_LR
+    3300060: Interior_Door_L
+    3300062: Interior_Door_R
+    3300064: Left_Glass
+    3300066: LGT_F_MR
+    3300068: LGT_R_MR
+    3300070: Moving_Lights
+    3300072: Rear_Glass
+    3300074: Rear_Light_Glass
+    3300076: Right_Glass
+    3300078: Seat_L_LR
+    3300080: Seat_R_LR
+    3300082: Steer_HR
+    3300084: Steer_LR
+    4300000: Cock_LR
+    4300002: Seat_L_LR
+    4300004: Int_R_LR
+    4300006: Int_L_LR
+    4300008: Steer_LR
+    4300010: Seat_R_LR
+    4300012: Body_MR
+    4300014: LGT_F_MR
+    4300016: LGT_R_MR
+    4300018: F_Lgt_L_MR
+    4300020: F_Lgt_R_MR
+    4300022: Bump_F_MR
+    4300024: Bump_R_MR
+    4300026: Body_LR
+    4300028: Bump_F_LR
+    4300030: Bump_R_LR
+    4300032: Moving_Lights
+    4300034: Bump_R_HR
+    4300036: Bump_F_HR
+    4300038: Body_HR
+    4300040: Rear_Light_Glass
+    4300042: Right_Glass
+    4300044: Left_Glass
+    4300046: Rear_Glass
+    4300048: Front_Light_Glass
+    4300050: Front_Glass
+    4300052: Steer_HR
+    4300054: Cock_HR
+    4300056: Interior_Door_L
+    4300058: Exterior_Door_L
+    4300060: Door_L_Window
+    4300062: Interior_Door_R
+    4300064: Exterior_Door_R
+    4300066: Door_R_Window
+    4300068: 'American_Muscle_01_Wheel '
+    4300070: 'American_Muscle_01_Wheel '
+    4300072: 'American_Muscle_01_Wheel '
+    4300074: American_Muscle_01_Wheel
+    4300076: American_Muscle_01_W
+    4300078: American_Muscle_01_W
+    4300080: American_Muscle_01_W
+    4300082: American_Muscle_01_W
+    4300084: American_Muscle_01_W
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
