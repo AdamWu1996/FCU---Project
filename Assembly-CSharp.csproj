@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3BEC0BE7-3FC5-5826-D6C9-99682A2F6098}</ProjectGuid>
+    <ProjectGuid>{287FF0C0-C13B-D3B2-292F-C370831297D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,15 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnableObject.cs" />
      <Compile Include="Assets\Lowpoly Toon Cat Lite\Demo\Cat_Lite_Demo.cs" />
-     <Compile Include="Assets\move.cs" />
-     <Compile Include="Assets\moveeee.cs" />
-     <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\CatFindFood.cs" />
      <Compile Include="Assets\Script\CatMovement.cs" />
+     <Compile Include="Assets\Script\EnableObject.cs" />
+     <Compile Include="Assets\Script\Fatigue_Information.cs" />
      <Compile Include="Assets\Script\FoodBeAte.cs" />
      <Compile Include="Assets\Script\FoodManager.cs" />
+     <Compile Include="Assets\Script\Full_Information.cs" />
+     <Compile Include="Assets\Script\move.cs" />
+     <Compile Include="Assets\Script\moveeee.cs" />
+     <Compile Include="Assets\Script\Movement.cs" />
+     <Compile Include="Assets\Script\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\RearWheelDrive.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
@@ -182,7 +185,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{76A136D5-E9A4-742F-6039-E9F4F9A2FFF9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7296E525-62EC-DED3-CD2D-C57811A71A69}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
