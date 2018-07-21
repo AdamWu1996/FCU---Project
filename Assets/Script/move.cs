@@ -77,8 +77,10 @@ public class move : MonoBehaviour
 			setState(RIGHT);  
 		}  
 
-		if (input_V <= 0)
-			anim.Play ("Idle_A");
+		if (input_V != 0 && input_H!=0)
+			anim.SetBool ("isRun", true);
+		else
+			anim.SetBool ("isRun", false);
 		
 		//Debug.Log (CrossPlatformInputManager.GetAxis ("Horizontal"));
 	}  

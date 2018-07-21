@@ -17,9 +17,13 @@ public class CatFindFood : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		if (food = GameObject.FindGameObjectWithTag ("Food").transform) {
+		if (GameObject.FindGameObjectWithTag ("Food")) {
+			nav.isStopped = false; //啟動自動尋路
+			food = GameObject.FindGameObjectWithTag ("Food").transform;
 			nav.destination = food.position;
 			anim.SetBool ("isRun", true);
+		} else {
+			nav.isStopped = true; //關閉自動尋路
 		}
 			
 		//food = GameObject.FindGameObjectWithTag ("Food").transform;
