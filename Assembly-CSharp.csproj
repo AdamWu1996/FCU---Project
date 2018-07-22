@@ -53,15 +53,14 @@
   <ItemGroup>
      <Compile Include="Assets\Lowpoly Toon Cat Lite\Demo\Cat_Lite_Demo.cs" />
      <Compile Include="Assets\Script\CatFindFood.cs" />
-     <Compile Include="Assets\Script\CatMovement.cs" />
      <Compile Include="Assets\Script\EnableObject.cs" />
      <Compile Include="Assets\Script\Fatigue_Information.cs" />
      <Compile Include="Assets\Script\FoodBeAte.cs" />
      <Compile Include="Assets\Script\FoodManager.cs" />
      <Compile Include="Assets\Script\Full_Information.cs" />
-     <Compile Include="Assets\Script\move.cs" />
-     <Compile Include="Assets\Script\moveeee.cs" />
-     <Compile Include="Assets\Script\Movement.cs" />
+     <Compile Include="Assets\Script\Move.cs" />
+     <Compile Include="Assets\Script\MoveByJoystick.cs" />
+     <Compile Include="Assets\Script\MoveByTouch.cs" />
      <Compile Include="Assets\Script\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\RearWheelDrive.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />

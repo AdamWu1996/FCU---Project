@@ -32,7 +32,7 @@ public class Fatigue_Information : MonoBehaviour {
 	}
 
 	public void GraduallyTired(){
-		fatigueSlider.value -= 0;
+		fatigueSlider.value -= 50;
 		time = 0;
 	}
 
@@ -43,18 +43,22 @@ public class Fatigue_Information : MonoBehaviour {
 
 	void FixedUpdate(){
 		
+		Debug.Log ("Fatigue : " + asi.IsName("Fatigue"));
+		Debug.Log ("Idle : " + asi.IsName("Idle"));
+		Debug.Log ("Run : " + asi.IsName("Run"));
+
 		time += Time.deltaTime;
 
-		if (time > 3 && asi.IsName ("Idle")) {
+		if (time > 3 && asi.IsName ("Idle") && fatigueSlider.value > 0 ) { //每過三單位且疲勞值>0
 			GraduallyTired ();
-			Debug.Log ("tired");
-		}
-			
-
-		if(fatigueSlider.value <= 0){ //疲勞值低於零且不是在休息狀態
+		}			
+		else if(fatigueSlider.value <= 0 && asi.IsName("Idle")){ //疲勞值低於0且在一般動畫
 			anim.SetTrigger("isFatigue");
-			fatigueSlider.value += 100;
-			Debug.Log ("in fa");
 		}
+
+		if (fatigueSlider.value <= 0 && asi.IsName ("Fatigue")) { //疲勞值低於0且在疲勞動畫
+			fatigueSlider.value += 5;
+		}
+
 	}
 }

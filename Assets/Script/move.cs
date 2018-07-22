@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class move : MonoBehaviour
+public class Move : MonoBehaviour
 {
 	private int  State; //角色狀態   
 	private int  oldState=0; //前一次角色的狀態   
