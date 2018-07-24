@@ -37,6 +37,7 @@ public class MoveByJoystick : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
+		//CrossPlatformInputManager
 		float v = CrossPlatformInputManager.GetAxis ("Vertical");
 		float h = CrossPlatformInputManager.GetAxis ("Horizontal");
 		Move (h, v);

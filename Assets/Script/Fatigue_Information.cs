@@ -17,7 +17,6 @@ public class Fatigue_Information : MonoBehaviour {
 		
 		cat = GameObject.Find ("Cat Lite");
 		anim = cat.GetComponent<Animator> ();
-		asi = anim.GetCurrentAnimatorStateInfo (0);
 
 		fatigueSlider.maxValue = startFatigue; //初始化飽滿度最大值
 
@@ -32,13 +31,17 @@ public class Fatigue_Information : MonoBehaviour {
 	}
 
 	public void GraduallyTired(){
-		fatigueSlider.value -= 50;
-		time = 0;
+		if (time > 3) {
+			fatigueSlider.value -= 30;
+			time = 0;
+		}
 	}
 
 	public void GraduallyRest(){
-		fatigueSlider.value += 30;
-		time = 0;
+		if (time > 3) {
+			fatigueSlider.value += 30;
+			time = 0;
+		}
 	}
 
 	void FixedUpdate(){
@@ -46,18 +49,20 @@ public class Fatigue_Information : MonoBehaviour {
 		Debug.Log ("Fatigue : " + asi.IsName("Fatigue"));
 		Debug.Log ("Idle : " + asi.IsName("Idle"));
 		Debug.Log ("Run : " + asi.IsName("Run"));
-
+		asi = anim.GetCurrentAnimatorStateInfo (0);
 		time += Time.deltaTime;
-
-		if (time > 3 && asi.IsName ("Idle") && fatigueSlider.value > 0 ) { //每過三單位且疲勞值>0
-			GraduallyTired ();
-		}			
-		else if(fatigueSlider.value <= 0 && asi.IsName("Idle")){ //疲勞值低於0且在一般動畫
-			anim.SetTrigger("isFatigue");
+		
+		if (asi.IsName ("Idle")) { //每過三單位且疲勞值>0
+			if (fatigueSlider.value <= 0)
+				anim.SetTrigger ("isFatigue");
+			else 
+				GraduallyTired ();	
 		}
-
-		if (fatigueSlider.value <= 0 && asi.IsName ("Fatigue")) { //疲勞值低於0且在疲勞動畫
-			fatigueSlider.value += 5;
+		else if(asi.IsName("Fatigue")){
+			if(fatigueSlider.value != 100)
+				GraduallyRest ();
+			else
+				anim.SetTrigger("notFatigue");
 		}
 
 	}

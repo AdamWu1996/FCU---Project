@@ -24,9 +24,6 @@ public class CatFindFood : MonoBehaviour {
 			anim.SetBool ("isRun", true);
 		} else {
 			nav.isStopped = true; //關閉自動尋路
-		}
-			
-		//food = GameObject.FindGameObjectWithTag ("Food").transform;
-		
+		}	
 	}
 }
